@@ -1,24 +1,13 @@
-<?php
-    include('conexion.php');
-?><!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario de Registro</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-    <div class="container">
+<div class="container">
         <h1>Formulario de Registro</h1>
-        <form action="#" method="post">
+        <form action="registro.php" method="POST">
             <div class="form-group">
                 <label for="nombre-convencional">Nombre Convencional:</label>
-                <input type="text" id="nombre-convencional" name="nombre-convencional" maxlength="40" required>
+                <input type="text" id="nombre-convencional" name="nombre_convencional" maxlength="40" required>
             </div>
             <div class="form-group">
                 <label for="nombre-cientifico">Nombre Científico:</label>
-                <input type="text" id="nombre-cientifico" name="nombre-cientifico" maxlength="40" required>
+                <input type="text" id="nombre-cientifico" name="nombre_cientifico" maxlength="40" required>
             </div>
             <div class="form-group">
                 <label for="clasificacion">Clasificación:</label>
@@ -46,11 +35,8 @@
             </div>
             <div class="button-group">
                 <button type="submit">Registrar</button>
-                <button type="button" id="borrar">Borrar</button>
+                <button type="reset" id="borrar">Borrar</button>
                 <button type="button" id="ver-nomina">Ver Nómina</button>
             </div>
         </form>
     </div>
-    <script src="script.js"></script>
-</body>
-</html>
