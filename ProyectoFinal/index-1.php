@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gestor de Estudiantes</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="#" id="btnRegistro">Registro</a></li>
+                <li><a href="#" id="btnRegistro">Formulario de Registro</a></li>
                 <li><a href="#" id="btnNomina">Ver Nómina</a></li>
             </ul>
         </nav>
     </header>
     
-    <main id="main-content">
+    <main >
         <div class="container">
             <!-- Formulario de Registro -->
             <section id="registro" class="content-section">
@@ -55,8 +55,8 @@
                         <input type="number" name="longevidad" required>
                     </div>
                     <div class="button-group">
-                        <button type="submit">Registrar</button>
-                        <button type="reset" id="borrar">Borrar</button>
+                        <button type="submit">REGISTRAR</button>
+                        <button type="reset" id="borrar">BORRAR</button>
                     </div>
                 </form>
             </section>

@@ -39,12 +39,12 @@ nav a {
 .container {
     background: #fff;
     padding: 18px;
-    margin: 60px;
+    margin: 80px;
     border-radius: 8px;
     box-shadow: 0px 30px 100px rgba(0, 0, 0, 0.1);
     width: 100%;
     max-width: 1355px;
-    align-items: center;
+    /* align-items: center; */
 }
 
 h1 {
