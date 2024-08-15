@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 12-08-2024 a las 23:52:57
+-- Tiempo de generación: 15-08-2024 a las 04:50:17
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.2.12
 
@@ -40,6 +40,20 @@ CREATE TABLE `ficha_tecnica` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
+-- Volcado de datos para la tabla `ficha_tecnica`
+--
+
+INSERT INTO `ficha_tecnica` (`Codigo`, `Nombre convencional`, `Nombre cientifico`, `Clasificación`, `Familia`, `Alimentación`, `Peso`, `Longitud`, `Longevidad`) VALUES
+(1, 'JIRAFA', 'LEOPARDUS', 'MAMMALIA', 'GIRAFIDAE', 'HOJA DE ARBOLES', 1800, 40, 40),
+(2, 'PUMA', 'PUMA CONCOLOR', 'MAMMALIA', 'FELIDAE', 'CARNIVOROS', 72, 180, 13),
+(3, 'OCELOTE', 'LEOPARDUS PARDALIS', 'MAMMALIA', 'FELIDAE', 'CARNIVOROS', 11, 40, 20),
+(4, 'LEON AFRICANO', 'PANTHERA LEO', 'MAMMALIA', 'FELIDAE', 'CARNIVOROS', 250, 250, 14),
+(5, 'HALCON', 'PUMA CONCOLOR', 'AVES', 'FALCONIDAE', 'CARNIVORO', 3, 58, 16),
+(6, 'AGULA REAL', 'AQUILA CHRYSAETOS', 'AVES', 'ACCIPITRIDAE', 'CARNIVORO', 6, 93, 40),
+(7, 'TUCAN PECHO AMARILLO', 'RAMPHASTOS SULFURATUS', 'AVES', 'RAMPHASTIDAE', 'OMNIVORO', 1, 63, 30),
+(9, 'TORTUGA GIGANTE DE ALDABRA', 'ALDABRACHAELYS GIGANTEA', 'SAUROPSIDA', 'TESTUDINIDAE', 'HERBIVORA', 250, 90, 165);
+
+--
 -- Índices para tablas volcadas
 --
 
@@ -57,7 +71,7 @@ ALTER TABLE `ficha_tecnica`
 -- AUTO_INCREMENT de la tabla `ficha_tecnica`
 --
 ALTER TABLE `ficha_tecnica`
-  MODIFY `Codigo` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `Codigo` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
