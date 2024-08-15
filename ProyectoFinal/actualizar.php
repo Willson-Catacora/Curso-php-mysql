@@ -1,4 +1,5 @@
 <?php
+    // 
     include('conexion.php');
     if(isset($_POST['Codigo']) && !empty($_POST['Codigo']) && isset($_POST['nombre_convencional']) && !empty($_POST['nombre_convencional']) && isset($_POST['nombre_cientifico']) && !empty($_POST['nombre_cientifico']) && 
     isset($_POST['clasificacion']) && !empty($_POST['clasificacion']) && isset($_POST['familia']) && !empty($_POST['familia']) && 
