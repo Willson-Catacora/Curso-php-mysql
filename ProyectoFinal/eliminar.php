@@ -11,7 +11,7 @@
         $query = mysqli_query($conexion, $delete) or die ("No se ha podido mostrar la consulta");
         if($query)
             // echo "SE HA REALIZADO LA ELIMINACION CORRECTAMENTE.";
-            header("Location: index-1.php");
+            header("Location: index.php");
         else
             echo "NO SE HA REALIZADO LA ELIMINACION.";
     }

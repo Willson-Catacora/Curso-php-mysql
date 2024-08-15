@@ -17,5 +17,5 @@
         $insert = "INSERT INTO ficha_tecnica(Codigo, `Nombre convencional`, `Nombre cientifico`, Clasificación, Familia, Alimentación, Peso, Longitud, Longevidad) VALUES (null,'$nombre_convencional','$nombre_cientifico','$clasificacion','$familia','$alimentacion',$peso,$longitud,$longevidad)";
         $query = mysqli_query($conexion, $insert) or die ("No se ha podido mostrar la consulta");
     }
-    header("Location: index-1.php");
+    header("Location: index.php");
 ?>

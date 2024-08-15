@@ -14,8 +14,8 @@
         echo "<td>".$columna['Peso']."</td>";
         echo "<td>".$columna['Longitud']."</td>";
         echo "<td>".$columna['Longevidad']."</td>";
-        echo "<td><a href='actualizar.php?Codigo=".$columna['Codigo']."'>MODIFICAR</a></td>";
-        echo "<td><a href='eliminar.php?Codigo=".$columna['Codigo']."' onclick='return confirm(\"¿Estás seguro de que deseas eliminar este registro?\")'>ELIMINAR</a></td>";
+        echo "<td><a href='datos.php?Codigo=".$columna['Codigo']."'><img src='./img/actualizar.png'></a></td>";
+        echo "<td><a href='eliminar.php?Codigo=".$columna['Codigo']."' onclick='return confirm(\"¿Estás seguro de que deseas eliminar este registro?\")'><img src='./img/eliminar.png'></a></td>";
         echo "</tr>";
     }
 ?>
